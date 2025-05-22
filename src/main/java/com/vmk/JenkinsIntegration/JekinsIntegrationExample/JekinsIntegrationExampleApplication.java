@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class JekinsIntegrationExampleApplication {
 
-	Logger logger = LoggerFactory.getLogger(JekinsIntegrationExampleApplication.class);
+	private static Logger logger = LoggerFactory.getLogger(JekinsIntegrationExampleApplication.class);
 
 	@PostConstruct
 	public void init(){
