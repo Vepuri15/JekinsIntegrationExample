@@ -13,12 +13,12 @@ public class JekinsIntegrationExampleApplication {
 
 	@PostConstruct
 	public void init(){
-		logger.info("Application initialized ....");
+		logger.info("Main Application initialized ....");
 	}
 	public static void main(String[] args) {
 
 		SpringApplication.run(JekinsIntegrationExampleApplication.class, args);
-		logger.info("Application started ....");
+		logger.info("Main Application started  ....");
 	}
 
 }

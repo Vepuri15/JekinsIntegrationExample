@@ -13,7 +13,7 @@ class JekinsIntegrationExampleApplicationTests {
 
 	@Test
 	void contextLoads() {
-		logger.info("Aplication test has started");
+		logger.info(" Test :: Aplication has started");
 		assertEquals(true,true);
 	}
 
